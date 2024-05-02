@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Table th,
+td {
+  width: 100vh;
+  border-collapse: collapse;
+  height: 100%;
+  background-color: aqua;
+}
+
+.Table th,
+td {
+  padding: 6px;
+  border: 1px solid #000;
+}
+
+.Table th {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Header {
+  width: 100%;
+  background-color: blueviolet;
+  color: #fff;
+  top: 0;
+  overflow: auto; 
 }
